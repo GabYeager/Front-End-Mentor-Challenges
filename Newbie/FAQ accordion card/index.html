@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+
+    <section class="first-section">
+      <span class="box-img"><img src="./images/illustration-box-desktop.svg" alt="caixa"></span>
+      <span class="woman-desktop"><img src="./images/illustration-woman-online-desktop.svg" alt=""></span>
+    </section>
+
+    <section class="second-section-faq">
+      <span class="woman-img"><img src="./images/illustration-woman-online-mobile.svg" alt="" /></span>
+      <span class="woman-shader"><img src="./images/bg-pattern-mobile.svg" alt=""></span>
+
+
+      <div class="container">
+
+        <h1>FAQ</h1>
+        
+        <div class="faq-container">
+          <div class="faq-answer-container">
+            <h5 id="question-1"  onclick="mostrar(arrow1,answer1,title1), esconder1()">How many team members can I invite?</h5><img src="./images/icon-arrow-down.svg" alt=""
+              id="arrow1">
+            <p id="answer-1">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-answer-container">
+            <h5 id="question-2" onclick="mostrar(arrow2,answer2,title2), esconder2()">What is the maximum file upload size?</h5><img src="./images/icon-arrow-down.svg" alt=""
+              id="arrow2">
+            <p id="answer-2">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-answer-container">
+            <h5 id="question-3" onclick="mostrar(arrow3,answer3,title3), esconder3()">How do I reset my password?</h5><img src="./images/icon-arrow-down.svg" alt=""
+              id="arrow3">
+            <p id="answer-3">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-answer-container">
+            <h5 id="question-4" onclick="mostrar(arrow4,answer4,title4), esconder4()">Can I cancel my subscription?</h5> <img src="./images/icon-arrow-down.svg" alt=""
+              id="arrow4">
+            <p id="answer-4">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq-container">
+          <div class="faq-answer-container">
+            <h5 id="question-5" onclick="mostrar(arrow5,answer5,title5), esconder5()">Do you provide additional support?</h5><img src="./images/icon-arrow-down.svg" alt=""
+              id="arrow5">
+            <p id="answer-5">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+ <script src="./script.js"></script>
+</body>
+
+</html>

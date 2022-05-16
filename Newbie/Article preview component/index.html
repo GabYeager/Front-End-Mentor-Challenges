@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Article preview component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <!--image-->
+    <header>
+      <span class="span-img-container"><img src="./images/drawers.jpg" alt=""></span>
+    </header>
+    <!--image-->
+
+    <!--first section of texts-->
+    <section class="first-section">
+      <div class="text-container">
+        <h3>Shift the overall look and feel by adding these wonderful
+          touches to furniture in your home</h3>
+
+        <p>Ever been in a room and felt like something was missing? Perhaps
+          it felt slightly bare and uninviting. I’ve got some simple tips
+          to help you make any room feel complete.</p>
+        <!--first section of texts-->
+
+        <!--a hidden div for desktop-->
+        <div class="desktop-div">
+          <span class="span-container">
+            <span class="share-text" id="desktopShare">share</span>
+            <span class="facebook-icon"><img src="./images/icon-facebook.svg" alt="" id="desktopFacebook"></span>
+            <span class="twitter-icon"><img src="./images/icon-twitter.svg" alt="" id="desktopTwitter"></span>
+            <span class="pinterest-icon"><img src="./images/icon-pinterest.svg" alt="" id="desktopPinterest"></span>
+          </span>
+        </div>
+      </div>
+      <!--a hidden div for desktop-->
+
+      <!--section for the picture and info about michelle-->
+      <section class="second-section">
+        <div class="section-container">
+          <span class="span-avatar-icon"><img src="./images/avatar-michelle.jpg" alt=""></span>
+          <p><strong>Michelle Appleton</strong><br>28 Jun 2020</p>
+          <span class="span-share-icon"><img src="./images/icon-share.svg" alt="" id="firstArrow"></span>
+          <!--icon for desktop user-->
+          <span class="desktop-share-icon"><img src="./images/icon-share.svg" alt="" id="desktopArrow"></span>
+          <!--icon for desktop user-->
+        </div>
+        <!--section for the picture and info about michelle-->
+
+        <!--the hiden div, used for show the extra share-->
+        <div class="hidden-div">
+          <span class="share-text">share</span>
+          <span class="facebook-icon"><img src="./images/icon-facebook.svg" alt="" id="facebook"></span>
+          <span class="twitter-icon"><img src="./images/icon-twitter.svg" alt="" id="twitter"></span>
+          <span class="pinterest-icon"><img src="./images/icon-pinterest.svg" alt="" id="pinterest"></span>
+          <span class="hidden-div-share-icon"><img src="./images/icon-share.svg" alt="" id="secondArrow"></span>
+        </div>
+        <!--the hiden div, used for show the extra share-->
+
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

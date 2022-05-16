@@ -1,0 +1,3 @@
+reduzir o codigo javascript
+ usando uma function com parametros
+ ao inves de usar parametros ja definidos

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Dark-gray: hsl(0, 0%, 59%);
+    --font-family: 'Kumbh Sans', sans-serif;
+    --font-size: 18px;
+}
+
+body {
+    height: 100vh;
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    background-color: var(--Dark-cyan);
+    display: -ms-grid;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.container {
+    display: -ms-grid;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+header {
+    text-align: center;
+    height: 145px;
+    width: 350px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: url(./images/bg-pattern-card.svg);
+}
+
+.span-icon-image>img {
+    border-radius: 50%;
+    position: relative;
+    bottom: -90px;
+    border: 5px solid white;
+}
+
+main {
+    display: -ms-grid;
+    display: grid;
+    justify-items: center;
+    padding-top: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+main>p {
+    text-align: center;
+    color: var(--Dark-gray);
+    line-height: 2rem;
+    padding-bottom: 10px;
+}
+
+main>p>strong {
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    border-top: 1px solid hsl(0deg 0% 59% / 21%);
+    background-color: white;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer>ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+footer>ul>li {
+    display: -ms-grid;
+    display: grid;
+    text-align-last: center;
+    color: var(--Dark-grayish-blue);
+    font-weight: 400;
+}
+
+footer>ul>li>strong {
+    color: var(--Very-dark-desaturated-blue);
+    font-weight: 700;
+}

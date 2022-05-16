@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+:root {
+    --font-size: 15px;
+    --font-family: "Poppins", sans-serif;
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: var(--Grayish-Blue);
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    background-color: var(--Very-Light-Gray);
+    display: grid;
+    justify-items: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: grid;
+    justify-items: center;
+    width: 375px;
+}
+
+.text-container {
+    display: grid;
+    justify-items: center;
+}
+
+.text-container>h2 {
+    color: var(--Grayish-Blue);
+    font-weight: 200;
+    margin: 15px 0;
+    font-size: 24px;
+}
+
+.text-container>h2>strong {
+    color: var(--Very-Dark-Blue);
+}
+
+.text-container>p {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+main {
+    display: grid;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+.box-container {
+    display: grid;
+    box-shadow: 0 12px 22px -6px var(--Grayish-Blue);
+    border-radius: 10px;
+    width: 324px;
+    padding: 18px;
+}
+
+.box-container>h2 {
+    color: var(--Very-Dark-Blue);
+}
+
+.span-icon {
+    justify-self: end;
+    margin-top: 40px;
+}
+
+.box-1 {
+    border-top: 5px solid var(--Cyan);
+}
+
+.box-2 {
+    border-top: 5px solid var(--Red);
+}
+
+.box-3 {
+    border-top: 5px solid var(--Orange);
+}
+
+.box-4 {
+    border-top: 5px solid var(--Blue);
+}
+
+@media screen and (min-width: 1160px) {
+    body {
+        margin-top: 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .text-container>p {
+        width: 500px;
+    }
+
+    .text-container>h2 {
+        font-size: 2.2rem;
+    }
+
+    main {
+        display: flex;
+        gap: 2.5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box-container {
+        width: 350px;
+    }
+}

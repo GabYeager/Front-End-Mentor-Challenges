@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray-background-headings-buttons: hsl(0, 0%, 95%);
+    --font-size: 15px;
+    --font-family-lexend: 'Lexend Deca', sans-serif;
+    --font-family-big-shoulders: 'Big Shoulders Display', cursive;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+    justify-content: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+}
+
+.container {
+    padding: 20px 37px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.container>h1 {
+    text-transform: uppercase;
+    color: var(--Very-light-gray-background-headings-buttons);
+    font-family: var(--font-family-big-shoulders);
+    font-weight: 700;
+}
+
+.container>p {
+    color: var(--Transparent-white-paragraphs);
+    font-family: var(--font-family-lexend);
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+.container>input {
+    cursor: pointer;
+    font-family: var(--font-family-lexend);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 57px;
+    font-weight: 400;
+}
+
+#first-div {
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#first-div>input {
+    color: var(--Bright-orange);
+}
+
+#second-div {
+    background-color: var(--Dark-cyan);
+}
+
+#second-div>input {
+    color: var(--Dark-cyan);
+}
+
+
+#third-div {
+    background-color: var(--Very-dark-cyan);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#third-div>input {
+    color: var(--Very-dark-cyan);
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        height: auto;
+    }
+
+    main {
+        display: -ms-grid;
+        display: grid;
+    }
+
+
+    #first-div {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 10px;
+    }
+
+
+    #third-div {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+}

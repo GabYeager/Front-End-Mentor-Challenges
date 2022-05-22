@@ -10,12 +10,13 @@
 }
 
 body {
-
-font-size: var(--font-size);
-
-font-family: var(--font-family);
-
-background-color: var(--Light-gray);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+    background-color: var(--Light-gray);
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
 }
 
 main {
@@ -23,7 +24,6 @@ main {
     display: grid;
     justify-items: center;
     justify-content: center;
-    margin-top: 5%;
 }
 
 .container {

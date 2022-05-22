@@ -20,9 +20,9 @@ body {
     font-size: var(--font-size);
     font-family: var(--font-family);
     background: var(--background-gradient);
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     height: 100vh;
     padding-top: 99px;
 }
@@ -122,6 +122,13 @@ main {
 }
 
 @media only screen and (min-width:1000px) {
+    body {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    padding-top: 0;
+    }
+    
     main {
         width: 800px;
         display: flex;
@@ -147,7 +154,8 @@ main {
     .box-img>img {
         display: block;
         position: absolute;
-        top: 280px;
+        align-self: center;
+        transform: translateY(22%);
         z-index: 1;
     }
 

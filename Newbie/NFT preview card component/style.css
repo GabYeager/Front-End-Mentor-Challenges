@@ -12,16 +12,13 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
     font-family: var(--font-family);
     background-color: var(--Very-dark-blue-main);
     margin: 0;
-}
-
-main {
-    margin-top: 3%;
+    height: 100vh;
 }
 
 .container {

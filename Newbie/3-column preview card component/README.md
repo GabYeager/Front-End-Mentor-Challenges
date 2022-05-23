@@ -15,5 +15,5 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/basic-flex-and-grid-SyljOFNr5)
-- Live Site URL: [](https://gabyeager.github.io/Front-End-Mentor-Challenges/Newbie/3-column%20preview%20card%20component)
+- Solution URL: [(https://www.frontendmentor.io/solutions/basic-flex-and-grid-SyljOFNr5)]
+- Live Site URL: [(https://gabyeager.github.io/Front-End-Mentor-Challenges/Newbie/3-column%20preview%20card%20component)]

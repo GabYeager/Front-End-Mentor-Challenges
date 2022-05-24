@@ -155,7 +155,7 @@ main {
         display: block;
         position: absolute;
         align-self: center;
-        transform: translateY(22%);
+        transform: translate(2px,22%);
         z-index: 1;
     }
 

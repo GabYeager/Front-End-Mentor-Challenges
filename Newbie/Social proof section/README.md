@@ -2,7 +2,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL:  [Here](https://www.frontendmentor.io/solutions/responsive-page-rJXS9tNHc)
 - Live Site URL: [Here](https://gabyeager.github.io/Front-End-Mentor-Challenges/Newbie/Social%20proof%20section/)
 
 This is a solution to the [Social proof section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 

@@ -2,7 +2,7 @@
 
 ### Links
 
-- Solution URL:
+- Solution URL:  [Here](https://www.frontendmentor.io/solutions/basic-responsive-page-using-flex-SkLLdFNSc)
 - Live Site URL: [Here](https://gabyeager.github.io/Front-End-Mentor-Challenges/Newbie/Stats%20preview%20card%20component/)
 
 This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 

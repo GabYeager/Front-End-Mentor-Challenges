@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <section>
+    <div class="container">
+
+      <header>
+        <span class="span-logo">
+          <img src="./images/logo.svg" alt="logo" />
+        </span>
+
+        <span class="span-woman">
+          <img src="./images/hero-mobile.jpg" alt="woman picture" />
+        </span>
+      </header>
+
+      <div class="text-container">
+        <h1>
+          We're <br /><strong>coming<br />
+            soon</strong>
+        </h1>
+
+        <p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+      </div>
+
+      <div class="form-container">
+        <form action="">
+          <input type="email" placeholder="Email Address" class="email-input" required />
+          <div class="input-container">
+            <button type="submit" class="button-input" onclick="formatEmailCheck()">
+              <img src="./images/icon-arrow.svg" alt="" class="arrow-input-img" />
+            </button>
+            <span class="icon-error-span"><img src="./images/icon-error.svg" alt="" id="errorIcon" /></span>
+            <p class="invalid-email-paragraph">Please provide a valid email</p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div>
+      <span class="desktop-span-img"><img src="./images/hero-desktop.jpg" alt=""></span>
+    </div>
+
+  </section>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>

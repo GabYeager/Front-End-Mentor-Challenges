@@ -2,7 +2,7 @@
 
 ### Links
 
-- Solution URL: [here](https://your-solution-url.com)
+- Solution URL: []()
 - Live Site URL: [here](https://gabyeager.github.io/Front-End-Mentor-Challenges/Newbie/order-summary-component-main/)
 
 ### The challenge
